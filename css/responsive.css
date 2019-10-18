@@ -1,0 +1,218 @@
+/* Portrait tablets and medium desktops */
+@media (max-width:1900px){
+    
+
+  body {
+      font-size: 1rem;
+  }
+
+  h1 {
+      font-size: 3.5rem;
+  }
+  p{
+      font-size: 8pt;
+  }
+  
+     /* portpolio */
+    .mymixcont{
+      top: 10%;
+      padding-left: 80px;
+    }
+    .mix{
+      background: rgb(0, 255, 85);
+      height: auto;
+      width: 29%;
+      margin : 8px;
+      float: left;
+      padding: 1px;
+      display: none;
+      overflow: hidden;
+     position: relative;
+     min-width: 300px;
+     min-height: 250px;
+    }
+    .portfolio .btn{
+      margin-left: 40px;
+      }
+}
+@media (max-width:1200px){
+    
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 8pt;
+    }
+   
+    /* portpolio */
+      .mymixcont{
+        top: 10%;
+        padding-left: 80px;
+      }
+      .mix{
+        background: rgb(0, 255, 85);
+        height: auto;
+        width: 29%;
+        margin : 8px;
+        float: left;
+        padding: 1px;
+        display: none;
+        overflow: hidden;
+       position: relative;
+       min-width: 250px;
+       min-height: 250px;
+      }
+      .portfolio .btn{
+        margin-left: 30px;
+        }
+}
+/* Portrait tablets and small desktops */
+@media (max-width: 991px){
+    html {
+        font-size: 90%;
+    }
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    h4 {
+        font-size: 1.225rem;
+        line-height: 2rem;
+    }
+    p{
+        font-size: 8pt;
+    }
+    
+      /* portpolio */
+      .mymixcont{
+        top: 10%;
+        padding-left: 80px;
+      }
+      
+      .mix{
+        background: rgb(0, 255, 85);
+        height: auto;
+        width: 29%;
+        margin : 8px;
+        float: left;
+        padding: 1px;
+        display: none;
+        overflow: hidden;
+       position: relative;
+       min-width: 250px;
+       min-height: 250px;
+      }
+      .portfolio .btn{
+        margin-left: -10px;
+        }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width:768px){
+    html {
+        font-size: 80%;
+    }
+    p{
+        font-size: 7pt;
+    }
+    
+      
+      /* portpolio */
+      .mix{
+        background: rgb(0, 255, 85);
+        height: auto;
+        width: 45%;
+        margin : 8px;
+        float: left;
+        padding: 1px;
+        display: none;
+        overflow: hidden;
+       position: relative;
+       min-width: 250px;
+       min-height: 250px;
+      }
+      .mymixcont{
+        padding-left: 130px;
+      }
+      /* about area */
+      .about .box img{
+        height: 100%;
+        width: 103%;
+        display: block;
+        
+        } 
+}
+/* Landscape phones and smaller */
+@media (max-width: 479px){
+    html{
+        font-size: 65%;
+    }
+    p{
+        font-size: 6pt;
+    }
+    
+      /* about */
+      .about .box img{
+        height: 100%;
+        width: 103%;
+        display: block;
+        
+        }
+       /* portpolio */
+       .mix{
+        background: rgb(0, 255, 85);
+        height: auto;
+        width: 100%;
+        margin : 8px;
+        float: left;
+        padding: 1px;
+        display: none;
+        overflow: hidden;
+       position: relative;
+       min-width: 250px;
+       min-height: 250px;
+      }
+      .mymixcont{
+        padding-left: 0;
+      }
+      
+}
+/* Landscape phones and smaller */
+@media (max-width: 320px){
+    html{
+        font-size: 60%;
+    }
+    p{
+        font-size: 6pt;
+    }
+    
+       /* portpolio */
+       .mix{
+        background: rgb(0, 255, 85);
+        height: auto;
+        width: 100%;
+        margin : 8px;
+        float: left;
+        padding: 1px;
+        display: none;
+        overflow: hidden;
+       position: relative;
+       min-width: 250px;
+       min-height: 250px;
+      }
+      .mymixcont{
+        padding-left: 0;
+      }
+      
+}
